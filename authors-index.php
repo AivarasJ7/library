@@ -5,7 +5,8 @@ Template Name: authors index
 get_header();
 
 $authors = $wpdb->get_results("select * from authors");
-$page = get_page_by_path("autoriaus-redagavimas");
+$page = get_page_by_path("autoriaus-redagavimo-langas");
+// print_r($page);die;
 ?>
 
 <main id="primary" class="site-main">
